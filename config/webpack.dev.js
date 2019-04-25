@@ -9,7 +9,7 @@ module.exports = merge(base,{
     devtool: 'inline-source-map',
     devServer:{
         contentBase: path.resolve(__dirname,'../dist'),
-        host: '10.0.1.15',
+        host: '192.168.50.45',
         allowedHosts:['huodong.500boss.com'],
         hot: true,
         // https: true,

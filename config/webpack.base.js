@@ -79,7 +79,7 @@ module.exports = {
             axios: 'axios'
         }),
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname,'../src/template.html'),
+            template: path.resolve(__dirname,'../src/static/template.html'),
             hash: isProd
         })
     ]
